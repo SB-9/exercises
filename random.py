@@ -3,7 +3,9 @@ last_name =input("Your last name: ")
 height =float(input("Your height in meters: "))
 age =int(input("Your age: "))
 gender =input("he or she: ")
-gender_ =input("his or her: ")
+if gender == "he":
+    gender_ = "his"
+else:  gender_ = "her"
 fav_food =input("fav food: ")
 print(first_name,last_name)
 print(gender_,"height is",height,"m")
