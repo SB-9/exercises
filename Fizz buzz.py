@@ -1,0 +1,13 @@
+# fizz buzz script made by Samuel Burgess on 16'th feb 2022
+number = 1
+
+while number < 101:
+    if number % 3 == 0 and number % 5 == 0:
+        print("fizzbuzz")
+    elif number % 3 == 0:
+        print("fizz")
+    elif number % 5 == 0:
+        print("buzz")
+    else:
+        print(number)
+number = (number + 1)
