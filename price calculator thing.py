@@ -10,4 +10,4 @@ elif price > 10:
     total = (price * 0.8)
 else:
     total = price
-print({f"price is {total}")
+print(f"price is {total}")
