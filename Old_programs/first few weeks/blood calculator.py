@@ -1,4 +1,4 @@
-# Blood donor calculator made by Samuel Burgess on 14'th Febuary 2022
+# Blood donor calculator made by Samuel Burgess on 14'th February 2022
 age = float(input("What is your age: "))
 weight = float(input("What is your weight in Kilograms: "))
 

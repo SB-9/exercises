@@ -5,4 +5,4 @@ if age < 12:
     dose = weight * 10
 else:
     dose = 1000
-print(f"recomend {dose} paracetamol")
+print(f"recommend {dose} paracetamol")

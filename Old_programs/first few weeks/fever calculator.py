@@ -1,4 +1,4 @@
-# Temperature calculator made by Samuel Burgess on 14'th Febuary 2022
+# Temperature calculator made by Samuel Burgess on 14'th February 2022
 age = float(input("What is your age: "))
 temperature = float(input("What is your temperature: "))
 if age < 2 and temperature >= 38:
