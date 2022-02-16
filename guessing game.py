@@ -2,13 +2,20 @@
 
 import random
 
-number = random.randint(1, 11)
+number = random.randint(1, 101)
 guess = -111
+guesses = 0
 
-while guess != number:
+GUESS_LIMIT = int(input())
+while guess != number and guesses != GUESS_LIMIT:
+    guesses += 1
     guess = int(input("Guess the number: "))
     if guess == number:
-        print("You got it")
+        print(f"You got it in {guesses} guesses!")
     else:
-        print("wrong!")
+        if guess < number:
+            print("too low")
+        else:
+            print("too high")
+print("you lost")
 
