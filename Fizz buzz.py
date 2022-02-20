@@ -4,7 +4,7 @@ user_number = int(input())
 
 for number in range(1, (user_number + 1)):
     if number % 15 == 0:
-        print("Fizzbuzz")
+        print("FizzBuzz")
     elif number % 5 == 0:
         print("Buzz")
     elif number % 3 == 0:
